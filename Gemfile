@@ -6,7 +6,6 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.2'
-gem 'pg', '~> 0.19'
 gem 'puma', '~> 3.0'
 
 gem 'hamlit', '~> 2.8'
@@ -35,3 +34,13 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'letter_opener'
 end
+
+group :development do
+
+gem 'capistrano', '~> 3.10'
+gem 'capistrano-rails', '~> 1.3'
+gem 'capistrano-bundler', '~> 1.3'
+#gem 'capistrano-sidekiq', '~> 0.5.4'
+gem 'capistrano-rvm', '~> 0.1.2'
+end
+

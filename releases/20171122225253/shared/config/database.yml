@@ -1,0 +1,8 @@
+production:
+  adapter: postgresql
+  host: localhost
+  database: app
+  username: deploy
+  password: maks558911m
+  encoding: unicode
+  pool: 5
